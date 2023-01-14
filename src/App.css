@@ -1,0 +1,152 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* text-align: center; */
+  box-sizing: border-box;
+}
+
+
+form .formOne{
+  width: 100%;
+  padding: 20px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin-right: 40px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  }
+.input-container {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.input-container input {
+  display: block;
+  padding: 8px 10px;
+  margin-top: 5px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+.inputName{
+
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.inputName input {
+  display: block;
+  padding: 8px 10px;
+  margin-top: 5px;
+  width: 29%;
+  border-radius: 5px;
+  border: 1px solid silver;
+  
+}
+
+
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 2rem;
+  background: greenyellow;
+}
+
+
+
+
+
+.products-list ul li h4 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.pencil{
+
+  width: 1rem;
+}
+.garbage{
+
+  width: 1rem;
+}
+
+.body{
+  background-color: #FF00FF;
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+
+}
+.containerList{
+  margin-top: 0rem;
+  position: relative;
+  width: 100vh;
+  height: 30%;
+   
+}
+.ulList{
+
+  list-style: none;
+  width: 100%;
+  margin-left: 9rem;
+}
+
+.list{
+  background-color: white;
+  box-shadow: 0rem  0rem 2rem 1rem;
+width: 100%;
+height: 10rem;
+border-radius: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+ul .dates{
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+div .buttons{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+img{
+height: 1.5rem;
+  width: 1.5rem;
+}
+
+button.open{
+  top: 15rem;
+  left: 4rem;
+  position: fixed;
+}
+
+.pone{
+margin-top: 14rem;
+text-align: center;
+}
+
+.ptwo{
+  margin-top: 14rem;
+  text-align: center;
+  }
